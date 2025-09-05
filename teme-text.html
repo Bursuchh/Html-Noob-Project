@@ -1,37 +1,54 @@
-<style>
-    p {
-font-family: Arial;
-margin-top: 0;
-margin-bottom: 0;
+ p {
+        font-family: Arial;
+        margin-top: 0;
+        margin-bottom: 0;
     }
 
-.video-titlu
-{
-    font-weight: bold;
-    font-size: 18px;
-    width: 280px;
-    line-height: 26px;
-    margin-bottom: 5px ;
-}
+    .video-titlu {
+        font-weight: bold;
+        font-size: 18px;
+        width: 280px;
+        line-height: 26px;
+        margin-bottom: 5px;
+    }
 
-.stats{
-    font-size: 14px;
-    color: rgb(96, 96, 96);
-    margin-bottom: 20px;
-}
+    .stats {
+        font-size: 14px;
+        color: rgb(96, 96, 96);
+        margin-bottom: 20px;
+    }
 
-.autor{
-    color:rgb(96, 96, 96); ;
-    font-size: 14px;
-    margin-bottom: 20px;
-}
+    .autor {
+        color: rgb(96, 96, 96);
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
 
-.descriere-video{
-    color: rgb(96, 96, 96);
-    font-size: 14px;
-    width: 280px;
-    line-height: 22px;
-}
+    .descriere-video {
+        color: rgb(96, 96, 96);
+        font-size: 14px;
+        width: 280px;
+        line-height: 22px;
+        margin-bottom: 20px;
+    }
+
+    #myButton {
+        width: 120px;
+        height: 40px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: width 0.3s ease, height 0.3s ease;
+        text-align: center;
+    }
+
+    #myButton:hover {
+        width: 150px;
+        height: 50px;
+    }
 </style>
 
 <p class="video-titlu">
@@ -49,3 +66,6 @@ margin-bottom: 0;
 <p class="descriere-video">
     Talking tech and AI on the heels of Google I/O. Also a daily driver phone reveal from Google's CEO. Shoutout to Sundar!
 </p>
+
+<!-- Butonul sub text -->
+<button id="myButton">Click me</button>
